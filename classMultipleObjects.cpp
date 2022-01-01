@@ -32,7 +32,8 @@ class Dog {
 };
 
 //setter definition for prototype (convienent to combine all accessors in one function)
-//this -> refers to the class member variable
+//this-> refers to the class member variable
+//this-> is not needed if the argument and class member variables are different
 //:: refers to the scope operator for the class where it is defined
 void Dog::setValues(int age, int weight, std::string color) {
     this -> age = age;
