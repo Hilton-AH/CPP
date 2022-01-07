@@ -1,0 +1,1 @@
+//type cpp -dM compilerPredefinedMacros.txt to view the predefined macros
